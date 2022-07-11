@@ -12,7 +12,7 @@ Test Teardown       Common.End web test
 
 *** Test Cases ***
 Should be able to acces front office
-    [Tags]  Test 1
+    [Tags]  Smoke
     FrontOfficeApp.Should be able to acces Front office
     Backofficeapp.should be able to acces back office
 
