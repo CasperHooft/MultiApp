@@ -16,12 +16,12 @@ Test Teardown       Common.End web test
 *** Test Cases ***
 Select Team from TopNav
     [Documentation]    vertify landing page is working
-    [Tags]  Test 1
+    [Tags]  Smoke
     FrontOfficeApp.Should be able to acces Front office
 
 Should be able to acces "Team" page
     [Documentation]    Should be able to acces "Team" page
-    [Tags]    Test 2
+    [Tags]    UI Test
     FrontOfficeApp.Should be able to acces "Team" page
 
 #"Team" page should match requirements

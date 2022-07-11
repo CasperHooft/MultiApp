@@ -12,6 +12,6 @@ Test Teardown       Common.End web test
 *** Test Cases ***
 Select Team from TopNav
     [Documentation]    vertify landing page is working
-    [Tags]  Test 1
+    [Tags]  Smoke
     log    Executing Test 1 "vertify landing page is working"
     Backofficeapp.should be able to acces back office
